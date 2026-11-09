@@ -1,0 +1,20 @@
+{
+ "total": 12,
+ "title_line1": "SAMPLE",
+ "title_line2": "SONG",
+ "amiri_text": "\u0644\u0627 \u0644\u0627 \u0644\u0627",
+ "hook_line": "la la la la",
+ "hook_amiri": "\u0644\u0627 \u0644\u0627 \u0644\u0627",
+ "artist_line": "STUDIO TEST",
+ "subcredit": "synthetic sample \u2014 not a real song",
+ "credit_strip": "STUDIO TEST \u2014 SAMPLE",
+ "header_word": "SAMPLE",
+ "watermark_word": "SAMPLE",
+ "outro_title": "Sample Song",
+ "outro_sub": "studio sample",
+ "en": {
+  "0": "english subtitle \u2014 line one",
+  "1": "english subtitle \u2014 line two",
+  "2": "the hook line"
+ }
+}
