@@ -1,0 +1,44 @@
+{
+ "id": "red-moon-tree",
+ "name": "Red Moon Tree",
+ "palette": {
+  "bg": "#0D1030",
+  "ink": "#F0EEF8",
+  "accent": "#FF7882",
+  "sub": "#C8C3DC"
+ },
+ "fonts": {
+  "display": "CormorantGaramond.ttf",
+  "script": "GreatVibes.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "illustrated",
+  "description": "deep indigo, crimson moon disc, recursive-branch silhouette tree, falling red leaves"
+ },
+ "layout": {
+  "style": "two-row script+serif",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "fade",
+  "out": "fade",
+  "duration_s": 0.5
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d04",
+  "support": "verified-stills"
+ },
+ "notes": "PDF guide style 3. One red leaf drops per line in video stage.",
+ "sampler_base": "04 Red Moon Tree",
+ "preview": "assets/previews/design04-verse.jpg"
+}

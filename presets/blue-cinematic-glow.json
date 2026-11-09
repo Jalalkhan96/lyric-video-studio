@@ -1,0 +1,44 @@
+{
+ "id": "blue-cinematic-glow",
+ "name": "Blue Cinematic Glow / Constellation",
+ "palette": {
+  "bg": "#070C22",
+  "ink": "#EEF2FF",
+  "accent": "#A0C8FF",
+  "sub": "#AABEE6"
+ },
+ "fonts": {
+  "display": "CormorantGaramond.ttf",
+  "script": "CormorantGaramond.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "starfield",
+  "description": "deep navy starfield, connected constellation ring around the lyric block"
+ },
+ "layout": {
+  "style": "delicate serif, ring motif",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "fade",
+  "out": "fade",
+  "duration_s": 0.6
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d07",
+  "support": "verified-stills"
+ },
+ "notes": "COTODAMA-inspired (github.com/trinknx/lyric-box).",
+ "sampler_base": "07 Constellation",
+ "preview": "assets/previews/design07-verse.jpg"
+}

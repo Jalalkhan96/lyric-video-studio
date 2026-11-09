@@ -1,0 +1,45 @@
+{
+ "id": "kinetic-typography",
+ "name": "Kinetic Typography \u2014 Kinetic Red",
+ "palette": {
+  "bg": "#F5EFE4",
+  "ink": "#181614",
+  "accent": "#B22234",
+  "sub": "#60584E"
+ },
+ "fonts": {
+  "display": "Montserrat.ttf",
+  "script": "Amiri.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "flat + diagonal band",
+  "description": "cream field, animated red diagonal band, ghost watermark word, red accent bar"
+ },
+ "layout": {
+  "style": "bold sans rows, word pop + progress underline",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "beat-cut",
+  "out": "beat-cut",
+  "duration_s": 0.0
+ },
+ "animation": {
+  "word_in": "pop",
+  "word_pop": 0.2,
+  "blur_px": 0,
+  "underline": true,
+  "underline_grows_with_word": true
+ },
+ "renderer": {
+  "name": "engine/render_kinetic.py",
+  "support": "verified-video"
+ },
+ "notes": "DEFAULT RENDERER. Full-video verified on the Qarara project (word pop from real words.json timings). JIZURA-inspired.",
+ "sampler_base": "08 Kinetic Red",
+ "preview": "assets/previews/design08-hook.jpg"
+}

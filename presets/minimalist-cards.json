@@ -1,0 +1,42 @@
+{
+ "id": "minimalist-cards",
+ "name": "Clean Minimalist Lyric Cards",
+ "palette": {
+  "bg": "#FFFFFF",
+  "ink": "#1C1C1E",
+  "accent": "#B22234",
+  "sub": "#6E6E73"
+ },
+ "fonts": {
+  "display": "Montserrat.ttf",
+  "script": "Montserrat.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "flat-light",
+  "description": "white card, single accent, generous whitespace, small caps labels"
+ },
+ "layout": {
+  "style": "card, left-aligned option",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "fade",
+  "out": "fade",
+  "duration_s": 0.25
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "none",
+  "support": "data-only"
+ },
+ "notes": "Data preset (spec #12). Closest sampler bases: 02 Minimal Sketch / 06 Cinematic Serif layouts."
+}

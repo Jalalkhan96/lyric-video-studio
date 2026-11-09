@@ -1,0 +1,44 @@
+{
+ "id": "minimal-sketch",
+ "name": "Minimal Sketch",
+ "palette": {
+  "bg": "#F3E9D8",
+  "ink": "#4A2C24",
+  "accent": "#DE9878",
+  "sub": "#4A2C24AA"
+ },
+ "fonts": {
+  "display": "PlayfairDisplay.ttf",
+  "script": "KaushanScript.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "paper",
+  "description": "cream paper, hand-drawn wavy horizon lines, outline sun"
+ },
+ "layout": {
+  "style": "two-row script+serif",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "blur-in",
+  "out": "fade",
+  "duration_s": 0.4
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 16,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d02",
+  "support": "verified-stills"
+ },
+ "notes": "PDF guide style 1 (wine-brown paper).",
+ "sampler_base": "02 Minimal Sketch",
+ "preview": "assets/previews/design02-verse.jpg"
+}

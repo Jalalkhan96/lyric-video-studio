@@ -1,0 +1,42 @@
+{
+ "id": "romantic-pink",
+ "name": "Romantic Pink Typography",
+ "palette": {
+  "bg": "#2B1218",
+  "ink": "#FBE9EC",
+  "accent": "#F49FB4",
+  "sub": "#E8B7C2"
+ },
+ "fonts": {
+  "display": "CormorantGaramond.ttf",
+  "script": "GreatVibes.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "gradient-glow",
+  "description": "deep rose gradient, soft pink glow particles, petal drift"
+ },
+ "layout": {
+  "style": "script hero + serif sub",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "blur-in",
+  "out": "fade",
+  "duration_s": 0.6
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 12,
+  "underline": false
+ },
+ "renderer": {
+  "name": "none",
+  "support": "data-only"
+ },
+ "notes": "Data preset (spec #4). No sampler still yet; render via kinetic engine palette swap or sampler extension."
+}

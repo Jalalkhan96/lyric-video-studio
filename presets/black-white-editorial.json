@@ -1,0 +1,44 @@
+{
+ "id": "black-white-editorial",
+ "name": "Black-and-White Editorial",
+ "palette": {
+  "bg": "#0A0A0C",
+  "ink": "#F5F3EE",
+  "accent": "#E8C584",
+  "sub": "#B4B2AC"
+ },
+ "fonts": {
+  "display": "PlayfairDisplay.ttf",
+  "script": "CormorantGaramond.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "flat-dark",
+  "description": "charcoal black, letterbox bars, film grain, huge serif"
+ },
+ "layout": {
+  "style": "huge serif centered",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "fade",
+  "out": "fade",
+  "duration_s": 0.4
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d06",
+  "support": "verified-stills"
+ },
+ "notes": "Sampler base 06 Cinematic Serif; set accent to #FFFFFF for strict mono variant.",
+ "sampler_base": "06 Cinematic Serif",
+ "preview": "assets/previews/design06-verse.jpg"
+}

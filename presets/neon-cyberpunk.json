@@ -1,0 +1,44 @@
+{
+ "id": "neon-cyberpunk",
+ "name": "Neon Noir Gold / Cyberpunk",
+ "palette": {
+  "bg": "#050508",
+  "ink": "#FFF4D6",
+  "accent": "#FFCD3C",
+  "sub": "#D4AF37"
+ },
+ "fonts": {
+  "display": "Cinzel.ttf",
+  "script": "Montserrat.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "flat-dark",
+  "description": "pure black, double gold frame, hairline rules, letterspaced caps header"
+ },
+ "layout": {
+  "style": "caps rows",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "hard-cut",
+  "out": "hard-cut",
+  "duration_s": 0.0
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.1,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d05",
+  "support": "verified-stills"
+ },
+ "notes": "Sampler base is gold-noir; swap accent to cyan/magenta for full cyberpunk variant.",
+ "sampler_base": "05 Neon Noir Gold",
+ "preview": "assets/previews/design05-verse.jpg"
+}

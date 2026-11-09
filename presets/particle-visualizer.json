@@ -1,0 +1,42 @@
+{
+ "id": "particle-visualizer",
+ "name": "Particle & Waveform Visualizer",
+ "palette": {
+  "bg": "#0B0B10",
+  "ink": "#FFFFFF",
+  "accent": "#7FE0C3",
+  "sub": "#9AA3B2"
+ },
+ "fonts": {
+  "display": "Montserrat.ttf",
+  "script": "Montserrat.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "audio-reactive",
+  "description": "dark field, particle field + waveform ring driven by audio RMS"
+ },
+ "layout": {
+  "style": "clean sans, centered",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "fade",
+  "out": "fade",
+  "duration_s": 0.3
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.08,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "none",
+  "support": "data-only"
+ },
+ "notes": "Data preset (spec #11). Audio-reactive layer not yet implemented in the PIL engine."
+}

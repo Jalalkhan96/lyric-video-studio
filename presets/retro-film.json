@@ -1,0 +1,44 @@
+{
+ "id": "retro-film",
+ "name": "Retro Film / Vintage Grain",
+ "palette": {
+  "bg": "#4A3030",
+  "ink": "#F8EEE4",
+  "accent": "#F0BA9E",
+  "sub": "#E2C8BA"
+ },
+ "fonts": {
+  "display": "GreatVibes.ttf",
+  "script": "CormorantGaramond.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "gradient-grain",
+  "description": "sepia-rose gradient, vignette, film grain, double border"
+ },
+ "layout": {
+  "style": "italic serif + script",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "crossfade",
+  "out": "crossfade",
+  "duration_s": 0.6
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "design_sampler.py:d10",
+  "support": "verified-stills"
+ },
+ "notes": "Sampler base 10 Dusty Rose Vintage.",
+ "sampler_base": "10 Dusty Rose Vintage",
+ "preview": "assets/previews/design10-verse.jpg"
+}

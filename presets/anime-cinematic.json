@@ -1,0 +1,42 @@
+{
+ "id": "anime-cinematic",
+ "name": "Anime-Inspired Cinematic",
+ "palette": {
+  "bg": "#101828",
+  "ink": "#F4F7FF",
+  "accent": "#8FC7FF",
+  "sub": "#B9C8E4"
+ },
+ "fonts": {
+  "display": "CormorantGaramond.ttf",
+  "script": "GreatVibes.ttf",
+  "body": "Montserrat.ttf"
+ },
+ "background": {
+  "type": "illustrated",
+  "description": "dusk sky gradient, layered silhouettes, drifting clouds/petals, letterbox bars"
+ },
+ "layout": {
+  "style": "cinematic serif, letterboxed",
+  "mid_y": 0.44,
+  "safe_top_px": 250,
+  "safe_bottom_px": 420,
+  "credit_strip": true
+ },
+ "transitions": {
+  "in": "crossfade",
+  "out": "crossfade",
+  "duration_s": 0.8
+ },
+ "animation": {
+  "word_in": "fade-rise",
+  "word_pop": 0.0,
+  "blur_px": 0,
+  "underline": false
+ },
+ "renderer": {
+  "name": "none",
+  "support": "data-only"
+ },
+ "notes": "Data preset (spec #6). Needs illustrated background assets before video rendering."
+}
