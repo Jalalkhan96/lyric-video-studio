@@ -1,0 +1,9 @@
+{
+ "id": "beat-cut",
+ "type": "cut",
+ "duration_s": 0.0,
+ "easing": "linear",
+ "params": {
+  "description": "cut aligned to detected beat grid"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "easings": [
+  {
+   "id": "linear",
+   "curve": "t",
+   "use": "progress bars, drifts"
+  },
+  {
+   "id": "easeOutCubic",
+   "curve": "1-(1-t)^3",
+   "use": "word entrances"
+  },
+  {
+   "id": "easeOutBack",
+   "curve": "overshoot 1.70158",
+   "use": "kinetic pop, zoom punch"
+  },
+  {
+   "id": "easeInOutQuad",
+   "curve": "2t^2 / 1-((-2t+2)^2)/2",
+   "use": "crossfades, pans"
+  },
+  {
+   "id": "spring-pop",
+   "curve": "damped spring k=170 c=16",
+   "use": "hook word emphasis"
+  },
+  {
+   "id": "blur-in",
+   "curve": "blur 16px->0 over 0.4s + rise 8px",
+   "use": "PDF guide word reveal (GSAP/HyperFrames)"
+  }
+ ]
+}

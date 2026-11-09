@@ -1,0 +1,9 @@
+{
+ "id": "whip-pan",
+ "type": "pan",
+ "duration_s": 0.35,
+ "easing": "easeInOutQuad",
+ "params": {
+  "description": "fast horizontal blur pan, direction param"
+ }
+}

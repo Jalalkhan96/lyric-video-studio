@@ -1,0 +1,9 @@
+{
+ "id": "glitch",
+ "type": "distort",
+ "duration_s": 0.25,
+ "easing": "linear",
+ "params": {
+  "description": "RGB split + slice offset burst"
+ }
+}

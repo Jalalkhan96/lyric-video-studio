@@ -1,0 +1,9 @@
+{
+ "id": "wipe",
+ "type": "wipe",
+ "duration_s": 0.45,
+ "easing": "easeInOutQuad",
+ "params": {
+  "description": "directional wipe (left/right/up/down)"
+ }
+}

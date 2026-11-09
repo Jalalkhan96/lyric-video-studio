@@ -1,0 +1,9 @@
+{
+ "id": "flash-cut",
+ "type": "flash",
+ "duration_s": 0.12,
+ "easing": "linear",
+ "params": {
+  "description": "1-3 frame white/color flash at cut point"
+ }
+}

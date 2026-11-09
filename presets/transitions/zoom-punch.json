@@ -1,0 +1,9 @@
+{
+ "id": "zoom-punch",
+ "type": "zoom",
+ "duration_s": 0.3,
+ "easing": "easeOutBack",
+ "params": {
+  "description": "scale punch-in on hook/emphasis words"
+ }
+}

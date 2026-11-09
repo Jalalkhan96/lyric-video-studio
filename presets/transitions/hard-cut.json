@@ -1,0 +1,9 @@
+{
+ "id": "hard-cut",
+ "type": "cut",
+ "duration_s": 0.0,
+ "easing": "linear",
+ "params": {
+  "description": "instant scene change on the beat or line start"
+ }
+}
